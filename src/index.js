@@ -14,6 +14,8 @@ let p = new Promise(function(resolve, reject) {
 
 p.then(function(result) {
     console.log("result: ", result);
+    debugger;
+    console.log("hi there...");
 });
 
 let funcName = (params) => params + 2
