@@ -1,6 +1,18 @@
 import _ from 'lodash';
 import $ from 'jquery';
 
+import { number, incr, vivian } from "./library.js";
+
+console.log(number);
+
+incr();
+
+console.log(number);
+
+console.log(vivian);
+
+console.log(vivian.full_name());
+
 function component() {
     return $("<div/>").html(_.join(['Hello', 'webpack', 'Alex'], ' '));
 }
@@ -23,3 +35,4 @@ let funcName = (params) => params + 2
 let result = funcName(2);
 
 console.log("result", result);
+
