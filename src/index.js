@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import $ from 'jquery';
+import './style.css';
 
 import { number, incr, vivian } from "./library.js";
 
